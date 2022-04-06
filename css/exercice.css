@@ -70,3 +70,15 @@
   flex-grow: 1;
 }
 /*8. exercice-all-in */
+.exercice-all-in .container-small{
+  display: flex;
+  flex-direction: reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-start;
+  justify-items: center;
+  align-content: center;
+}
+
+.exercice-all-in .container-small .element{
+  flex-grow: 1;
+}
